@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.secBrownies {
+  background-color: #e7e9e9;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../../Assets//brow2BG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title1 {
+  font-size: 3rem;
+  color: #59002d;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 0.2rem;
+  text-shadow: 3px 3px 2px #de8787;
+  position: relative;
+  z-index: 1;
+}
+
+.title1::after {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: rgb(251, 78, 48);
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    border-radius: 0.2rem;
+    z-index: -1;
+  }
+
+.subtitle {
+  font-size: 1.3rem;
+  letter-spacing: 0.05rem;
+  color: #de8787;
+  opacity: 1;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+}
+
+.span {
+  font-style: italic;
+}
+
+.tradicionais {
+  align-self: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.img,
+.img1 {
+  width: 270px;
+  border-radius: 10px;
+}
+
+.bName {
+  font-size: 2rem;
+  color: #59002d;
+  margin-bottom: 3rem;
+}
+
+.bParagraph {
+  color: #59002d;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.polaroid,
+.polaroid1 {
+  background-color: #e7e9e9;
+  background-image: url('https://www.grespania.com/cmsupload/catalogo-despiece/texture-bco-30x60-mitad_rgb.preview.jpg');
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transform: rotate(8deg);
+  transition: 0.8s;
+  position: relative;
+}
+
+.polaroid1 {
+  transform: rotate(-8deg);
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 50%;
+}
+
+.polaroid:hover .img {
+  opacity: 0.3;
+  transition: 0.6s;
+}
+
+.polaroid1:hover .img {
+  opacity: 0.3;
+  transition: 0.6s;
+}
+
+.polaroid:hover .middle {
+  opacity: 1;
+}
+
+.polaroid1:hover .middle {
+  opacity: 1;
+}
+
+.content {
+  align-self: center;
+  width: 80%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding-top: 2rem;
+  padding-left: 6%;
+  padding-right: 6%;
+}

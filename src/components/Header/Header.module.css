@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+.header {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+  background-color: #e7e9e9;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #59002d;
+  transition: 0.3s;
+  position: relative;
+  margin: 0 30px;
+}
+
+.link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #59002d;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  color: #59002d;
+}
+.link:hover:after {
+  width: 100%;
+  left: 0;
+  color: #59002d;
+}
