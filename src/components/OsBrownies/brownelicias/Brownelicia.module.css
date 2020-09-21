@@ -19,21 +19,8 @@
   letter-spacing: 0.2rem;
   text-shadow: 3px 3px 2px #de8787;
   position: relative;
-  z-index: 1;
 }
 
-.title1::after {
-    content: '';
-    display: block;
-    width: 1.5rem;
-    height: 1.5rem;
-    background: rgb(251, 78, 48);
-    position: absolute;
-    bottom: 5px;
-    left: -5px;
-    border-radius: 0.2rem;
-    z-index: -1;
-  }
 
 .subtitle {
   font-size: 1.3rem;

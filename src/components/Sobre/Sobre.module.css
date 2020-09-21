@@ -1,0 +1,65 @@
+.section {
+    /* background-color: red; */
+    height: 100vh;
+    background-image: url('../../Assets/sobre.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
+    border: 5px double #000030;
+
+}
+
+
+.title {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  color: #000030;
+}
+.container {
+    /* background-color: red; */
+    margin-right: 15rem;
+    width: 30%;
+    background-color: rgba(200,200,200,.5);
+    /* background-color: yellow; */
+    padding: 40px;
+    border-radius: 20px;
+}
+.par {
+    font-family: 'Kumbh Sans', sans-serif;
+font-size: 1.5rem;
+line-height: 2rem;
+color: #000030;
+letter-spacing: .1rem;
+}
+
+
+@media (max-width: 40rem) {
+  .container {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    /* margin-left: 2rem; */
+    margin-right: 0;
+    border-radius: 10px;
+  }
+  .par {
+    font-size: 1.2rem;
+  }
+  .section {
+    justify-content: center;
+    align-items: center;
+    background-position-x: left;
+  }
+}
+
+
+
+
+
+
+

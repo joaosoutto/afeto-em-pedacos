@@ -1,0 +1,120 @@
+.section {
+  background-color: #f4d7d7;
+  /* background-image: linear-gradient(#e7e9e9, #d19999); */
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border: 5px double #59002d;
+}
+
+.upper {
+  /* background-color: yellow; */
+  align-self: center;
+  justify-self: flex-start;
+  /* margin-top: 3rem; */
+  /* width: 80%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+  box-shadow: 3px 3px 5px #de8787;
+  border-radius: 50px;
+}
+
+.title {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #59002d;
+  text-shadow: 3px 3px 5px #de8787;
+  font-size: 4.5rem;
+  margin-left: 1rem;
+}
+
+.menu {
+  /* background-color: yellow; */
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.submenu {
+  /* background-color: violet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* line-height: 3rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-left: 2px dotted #59002d;
+}
+
+.subTitle {
+  font-size: 2.3rem;
+  letter-spacing: 0.1rem;
+  /* text-decoration: underline; */
+  margin-bottom: 3rem;
+  color: #de8787;
+  text-shadow: 1px 1px 1px #59002d;
+}
+
+.brownie {
+  width: 100%;
+  /* background-color: aqua; */
+  line-height: 2rem;
+  margin-top: 4rem;
+}
+
+.nome {
+  color: #59002d;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.descricao {
+  color: #59002d;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.price {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 40rem) {
+  .section {
+    height: auto;
+  }
+  .logo {
+    width: 70px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .upper {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .subTitle {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    /* margin-top: 3rem; */
+  }
+  .nome {
+    font-size: 1.3rem;
+  }
+  .descricao {
+    font-size: 1rem;
+  }
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Recheados.module.css';
-import brigadeiro from '../../../Assets/brownies/recheados/brigadeiro.png';
-import leite from '../../../Assets/brownies/recheados/leite.png';
-import coco from '../../../Assets/brownies/recheados/coco.png';
+import brigadeiro from '../../../Assets/brownies/recheados/brigadeiro.jpg';
+import leite from '../../../Assets/brownies/recheados/leite.jpg';
+import coco from '../../../Assets/brownies/recheados/coco.jpg';
 
 // 2718 x 3264
 

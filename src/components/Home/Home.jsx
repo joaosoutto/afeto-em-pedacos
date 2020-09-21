@@ -1,5 +1,6 @@
 import React from 'react';
 import BrownieCover from '../BrownieCover/BrownieCover';
+import Sobre from '../Sobre/Sobre';
 
 const Home = () => {
   return (
